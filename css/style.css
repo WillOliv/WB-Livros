@@ -1,0 +1,118 @@
+:root {
+  --preto: #050805;
+  --branco: #e9f5e9;
+  --roxo: #2f184e;
+  --cinza-claro: #777d77;
+  --cinza-escuro: #394039;
+}
+
+/* Root são variáveis, no lugar de por sempre a cor, escreve "color : var(--preto)" por exemplo*/
+
+* {
+  color: var(--branco);
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+/* essa é uma "ordem" global, algumas coisas vem por padrão então dei umm "reset aqui"*/
+
+.titulo_2 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.titulo_3 {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+body {
+  background-color: var(--preto);
+}
+
+header {
+  background-color: var(--roxo);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 130px;
+}
+
+header .logo {
+  background-color: var(--cinza-escuro);
+  width: 150px;
+  height: 100px;
+  margin-left: 30px;
+}
+
+header .search_bar {
+  background-color: var(--cinza-escuro);
+  width: 700px;
+  height: 50px;
+}
+
+header .perfil {
+  background-color: var(--cinza-escuro);
+  width: 70px;
+  height: 70px;
+}
+
+header .favoritos {
+  background-color: var(--cinza-escuro);
+  width: 70px;
+  height: 70px;
+  margin-right: 30px;
+}
+
+.nav_bar {
+  background-color: var(--cinza-escuro);
+  height: 30px;
+  margin: 0 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.nav_bar .indice {
+  background-color: var(--cinza-claro);
+  width: 150px;
+  height: 18px;
+  margin: 0 30px;
+}
+
+.banner {
+  height: 200px;
+  margin: 0 60px;
+  margin-bottom: 20px;
+  border: 2px var(--branco) dotted;
+}
+
+.main {
+  margin: 0 60px;
+}
+
+.main article {
+  margin: 15 0px;
+}
+
+.carrousels {
+  margin-left: 50px;
+}
+
+footer {
+  background-color: var(--cinza-escuro);
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+footer .footer_area {
+  margin: 0 60px;
+}
