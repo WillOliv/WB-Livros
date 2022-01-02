@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+:root {
+    --preto: #050805;
+    --branco: #e9f5e9;
+    --roxo: #2f184e;
+    --cinza-claro: #777d77;
+    --cinza-escuro: #394039;
+}
+
+* {
+    color: var(--branco);
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+    background-color: var(--preto);
+}
+
+footer{
+    background-color: var(--roxo);
+    height: 200px;
+}
+
+footer .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+footer .container #box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20vw;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer .titulo{
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.redes .redes_area i{
+    margin: 20px 10px;
+}
+
+.pagamento .pagamento_area{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    min-width: 100%;
+    margin-top: 10px;
+}
+
+.pagamento .pagamento_area .icones_1,
+.pagamento .pagamento_area .icones_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.pagamento .pagamento_area img{
+    margin-bottom: 20px;
+    width: 80px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.contatos .contatos_area{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+}
+.contatos .contatos_area a{ 
+    font-size: 18px;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.contatos .contatos_area a:hover{ 
+    color: var(--cinza-claro);
+}

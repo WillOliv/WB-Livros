@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+:root {
+    --preto: #050805;
+    --branco: #e9f5e9;
+    --roxo: #2f184e;
+    --cinza-claro: #777d77;
+    --cinza-escuro: #394039;
+}
+
+* {
+    color: var(--branco);
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+    background-color: var(--preto);
+}
+
+header {
+    background-color: var(--roxo);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 15%;
+    padding: 0 10%;
+}
+
+header .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 100%;
+}
+
+header .logo .logotipo{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+header .search_bar {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: 40%;
+}
+
+header .search_bar i{
+    background-color: var(--branco);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    height: 100%;
+    color: var(--roxo);
+}
+
+header .search_bar input{
+    background-color: var(--branco);
+    font-size: 1.5vw;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    color: black;
+}
+
+header .perfil,
+header .favoritos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    height: 100%;
+    
+}
+
+header .favoritos i{
+    color: rgb(177, 29, 29);
+}
+
+.nav_bar {
+    height: 30px;
+    margin: 0 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 30px;;
+}
+
+.nav_bar .indice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 18px;
+    margin: 0 30px;
+}
+
+.nav_bar .indice button{
+    background-color: transparent;
+}
+
+.nav_bar .indice button a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.nav_bar .indice button a:hover{
+    color: var(--cinza-claro);
+}
