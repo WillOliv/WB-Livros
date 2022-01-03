@@ -1,0 +1,39 @@
+:root {
+    --preto: #050805;
+    --branco: #e9f5e9;
+    --roxo: #2f184e;
+    --cinza-claro: #777d77;
+    --cinza-escuro: #394039;
+}
+
+* {
+    color: var(--branco);
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+    background-color: var(--preto);
+}
+
+header {
+    background-color: var(--roxo);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 15%;
+    padding: 0 10%;
+}
+
+header .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+header .logo .logotipo{
+    width: 7vw;
+    object-fit: contain;
+}
