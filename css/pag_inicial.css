@@ -26,13 +26,14 @@ body {
     background-color: var(--preto);
   }
 
+.main {
+    margin: 0 10%;
+}
+/*------------------Slides Area----------------------------*/
 .banner {
-    height: 30vh;
+    width: 60vw;
+    height: 250px;
     margin: 0 10%;
     margin-bottom: 20px;
     border: 2px var(--branco) dotted;
 }
-
-.main {
-    margin: 0 5%;
-  }

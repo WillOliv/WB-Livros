@@ -60,7 +60,7 @@ header .search_bar i{
 
 header .search_bar input{
     background-color: var(--branco);
-    font-size: 1.5vw;
+    font-size: 1vw;
     width: 100%;
     height: 100%;
     outline: none;

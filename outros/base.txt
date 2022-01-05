@@ -1,0 +1,11 @@
+roxo           #2f184e
+preto          #050805
+branco         #e9f5e9
+cinza-claro    #777d77
+cinza-escuro   #394039
+
+Font awesome - https://kit.fontawesome.com/cfd59d7adc.js
+
+Fonte Popins - @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+Fonte Roboto - @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');

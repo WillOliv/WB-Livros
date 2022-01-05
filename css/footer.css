@@ -41,7 +41,7 @@ footer .container #box{
 
 footer .titulo{
     margin-bottom: 10px;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .redes .redes_area i{
@@ -65,7 +65,7 @@ footer .titulo{
 
 .pagamento .pagamento_area img{
     margin-bottom: 20px;
-    width: 80px;
+    width: 50px;
     height: 50px;
     object-fit: contain;
 }
@@ -77,7 +77,7 @@ footer .titulo{
 
 }
 .contatos .contatos_area a{ 
-    font-size: 18px;
+    font-size: 16px;
     text-decoration: none;
     margin-bottom: 5px;
 }

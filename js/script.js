@@ -12,7 +12,7 @@ $('.owl-carousel').owlCarousel({
             items:4.5
         },
         1000:{
-            items:6.5
+            items:7.5
         }
     }
 })
