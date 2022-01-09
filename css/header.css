@@ -50,12 +50,14 @@ header .search_bar {
 }
 
 header .search_bar i{
-    color: var(--roxo);
     background-color: var(--branco);
+    color: var(--roxo);
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 5vw;
+    font-size: 2vw;
+    padding: 1.5%;
+
 }
 
 header .search_bar input{
@@ -74,30 +76,30 @@ header .favoritos {
     justify-content: center;
     width: 10%;
     height: 100%;
-    
+}
+
+header .perfil i {
+    font-size: 4vw;
 }
 
 header .favoritos i{
     color: rgb(177, 29, 29);
+    font-size: 3vw;
 }
 
 .nav_bar {
-    height: 30px;
-    margin: 0 60px;
+    height: 5vh;
+    margin: 0% 2%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    margin-bottom: 30px;;
 }
 
 .nav_bar .indice {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 150px;
-    height: 18px;
-    margin: 0 30px;
 }
 
 .nav_bar .indice button{
@@ -106,7 +108,6 @@ header .favoritos i{
 
 .nav_bar .indice button a{
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
     text-decoration: none;
     font-size: 1.5vw;
 }
