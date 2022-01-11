@@ -28,9 +28,11 @@
             </a>
         </div>
         
-        <a href="#" class="favoritos">
-            <i class="fas fa-heart"></i>
-        </a>
+        <div class="favoritos">
+            <a href="#">
+                <i class="fas fa-heart"></i>
+            </a>
+        </div>
     </header>
 
     <nav class="nav_bar">
