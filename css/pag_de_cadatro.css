@@ -1,27 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
-
-:root {
-    --preto: #050805;
-    --branco: #e9f5e9;
-    --roxo: #2f184e;
-    --cinza-claro: #777d77;
-    --cinza-escuro: #394039;
+/*-----------------------------------*/
+.header{
+    width: 100vw;
+    height: 20vh;
 }
 
-* {
-    color: var(--branco);
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-}
-
-body {
-    background-color: var(--preto);
-}
-
-.txt {
-    color: var(--preto);
+.footer{
+    width: 100vw;
+    height: 20vh;
 }
 
 body .container_cadastro{
@@ -70,6 +55,7 @@ body .container_cadastro{
     outline: none;
 }
 
+/*-----------------------------------*/
 .formulario .botao_registrar{
     width: 40%;
     height: 7%;
@@ -91,6 +77,7 @@ body .container_cadastro{
     color: var(--roxo);
 }
 
+/*-----------------------------------*/
 .login_area{
     display: flex;
     flex-direction: row;
@@ -118,4 +105,3 @@ body .container_cadastro{
 .botao_login a:hover{
     color: var(--branco);
 }
-

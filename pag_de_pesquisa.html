@@ -8,108 +8,137 @@
     <link rel="stylesheet" href="css/header.css">
     <script src="https://kit.fontawesome.com/cfd59d7adc.js"></script>
 </head>
+
 <body>
-    <header>
 
-        <a href="pag_inicial.html">
-            <div class="logo">
-                <img class="logotipo" src="icon/logo_1.png" alt="icone_do_site">
-                <img class="logotipo" src="icon/logo_2.png" alt="logo_do_site">
-            </div>
-        </a>
-
-        <div class="search_bar">
-            <i class="fas fa-search fa-2x"></i>
-            <input type="text" placeholder="Search...">
-        </div>
-
-        <div class="perfil">
-            <a href="#">
-                <i class="fas fa-user-circle"></i>
-            </a>
-        </div>
-        
-        <div class="favoritos">
-            <a href="#">
-                <i class="fas fa-heart"></i>
-            </a>
-        </div>
-    </header>
-
-    <nav class="nav_bar">
-
-        <div class="indice" class="nav1">
-            <button role="button">
-                <a href="">Livros</a>
-            </button>
-        </div>
-
-        <div class="indice" class="nav2">
-            <button role="button">
-                <a href="">Novels</a>
-            </button>
-        </div>
-
-        <div class="indice" class="nav3">
-            <button role="button">
-                <a href="">Mangas</a>
-            </button>
-        </div>
-
-        <div class="indice" class="nav4">
-            <button role="button">
-                <a href="">Comics</a>
-            </button>
-        </div>
-    </nav>
+    <iframe src="header.html" class="header"></iframe>
 
     <div class="main_pesquisa">
 
-        <div class="resultado">Resultados para : </div>
+        <div class="resultado"> <p>Resultados para : </p> </div>
 
-        <section class="art_pesquisa">
+        <section class="sec_pesquisa">
 
-            <article class="article1">
-                <p>teste1</p>
+            <article class="menu_area">
+                <p class="filtro txt">Filtrar por</p>
             </article>
 
-            <article class="article2">
+            <article class="conteudo_area">
 
                 <section class="container">
-                    <div class="section_left">
-                        <img src="" alt="">
-                    </div>
+                    <article class="article_left">
+                        <img src="img/livro/o_codigo_da_vinci.jpg" alt="">
+                        <p class="preco txt">R$ 39,99</p>
+                    </article>
 
-                    <div class="section_right">
+                    <article class="article_right">
+                        <div class="obra">
+                            <p class="right_nome txt">O Código da Vinci</p>
+                            <p class="right_autor txt">Dan Brown</p>
+                        </div>
+                        <p class="right_sinopse txt">Um assassinato no Museu do Louvre traz à tona uma sinistra conspiração para revelar um segredo que foi protegido por uma sociedade secreta desde os tempos de Jesus Cristo.</p>
 
-                    </div>
+                        <button class="right_botao">
+                            <a href="pag_de_compra.html">
+                                <p class="txt">Comprar</p>
+                            </a>
+                        </button>
+                    </article>
+
                 </section>
 
                 <section class="container">
-                    <div class="section_left">
-                        <img src="" alt="">
-                    </div>
+                    <article class="article_left">
+                        <img src="img/livro/twilight.jpg" alt="">
+                        <p class="preco txt">R$ 49,99</p>
+                    </article>
 
-                    <div class="section_right">
+                    <article class="article_right">
+                        <div class="obra">
+                            <p class="right_nome txt">twilight</p>
+                            <p class="right_autor txt">Stephenie Meyer</p>
+                        </div>
+                        <p class="right_sinopse txt">Crepúsculo poderia ser uma história comum, não fosse um elemento irresistível: o objeto da paixão da protagonista é um vampiro. Assim, soma-se à paixão um perigo sobrenatural temperado com muito suspense, e o resultado é uma leitura de tirar o fôlego.</p>
 
-                    </div>
+                        <button class="right_botao">
+                            <a href="pag_de_compra.html">
+                                <p class="txt">Comprar</p>
+                            </a>
+                        </button>
+                    </article>
+
                 </section>
-                
+
                 <section class="container">
-                    <div class="section_left">
-                        <img src="" alt="">
-                    </div>
+                    <article class="article_left">
+                        <img src="img/livro/hp_reliquas_da_morte.jpg" alt="">
+                        <p class="preco txt">R$ 59,90</p>
+                    </article>
 
-                    <div class="section_right">
+                    <article class="article_right">
+                        <div class="obra">
+                            <p class="right_nome txt">Harry Potter e as Relíquias da Morte</p>
+                            <p class="right_autor txt">J. K. Rowling</p>
+                        </div>
+                        <p class="right_sinopse txt">Harry Potter e as relíquias da morte', de J.K. Rowling, é o sétimo e último livro da série. Voldemorte está cada vez mais forte e Harry Potter precisa encontrar e aniquilar as Horcruxes para enfraquecer o lorde e poder enfrentálo.</p>
 
-                    </div>
+                        <button class="right_botao">
+                            <a href="pag_de_compra.html">
+                                <p class="txt">Comprar</p>
+                            </a>
+                        </button>
+                    </article>
+
                 </section>
 
-                <article/>
+                <section class="container">
+                    <article class="article_left">
+                        <img src="img/livro/anjos_e_demonios.jpg" alt="">
+                        <p class="preco txt">R$ 59,90</p>
+                    </article>
+
+                    <article class="article_right">
+                        <div class="obra">
+                            <p class="right_nome txt">Anjos e Demônios</p>
+                            <p class="right_autor txt">Dan Brown</p>
+                        </div>
+                        <p class="right_sinopse txt">Antes de decifrar O Código Da Vinci, Robert Langdon, o famoso professor de simbologia de Harvard, vive sua primeira aventura em Anjos e demônios, quando tenta impedir que uma antiga sociedade secreta destrua a Cidade do Vaticano.</p>
+
+                        <button class="right_botao">
+                            <a href="pag_de_compra.html">
+                                <p class="txt">Comprar</p>
+                            </a>
+                        </button>
+                    </article>
+
+                </section>
+
+                <section class="container">
+                    <article class="article_left">
+                        <img src="img/livro/50_tons_de_cinza.jpg" alt="">
+                        <p class="preco txt">R$ 44,90</p>
+                    </article>
+
+                    <article class="article_right">
+                        <div class="obra">
+                            <p class="right_nome txt">Cinquenta tons de cinza</p>
+                            <p class="right_autor txt">E. L. James</p>
+                        </div>
+                        <p class="right_sinopse txt">Quando Anastasia Steele entrevista o jovem empresário Christian Grey, descobre nele um homem atraente, brilhante e profundamente dominador. Ingênua e inocente, Ana se surpreende ao perceber que, a despeito da enigmática reserva de Grey, está desesperadamente atraída por ele.</p>
+
+                        <button class="right_botao">
+                            <a href="pag_de_compra.html">
+                                <p class="txt">Comprar</p>
+                            </a>
+                        </button>
+                    </article>
+
+                </section>
             </article>
 
         </section>
     </div>
 
+    <iframe src="footer.html" class="footer"></iframe>
 </body>
 </html>

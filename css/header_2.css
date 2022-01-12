@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
 :root {
     --preto: #050805;
     --branco: #e9f5e9;
@@ -13,16 +16,21 @@
     border: 0px;
 }
 
+.txt{
+    color: var(--preto);
+}
+
 body {
     background-color: var(--preto);
 }
 
+/*-----------------------------------*/
 header {
     background-color: var(--roxo);
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 15%;
+    height: 75%;
     padding: 0 10%;
 }
 

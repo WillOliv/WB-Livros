@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
 :root {
@@ -15,13 +16,18 @@
     border: 0px;
 }
 
+.txt{
+    color: var(--preto);
+}
+
 body {
     background-color: var(--preto);
 }
 
+/*-----------------------------------*/
 footer{
     background-color: var(--roxo);
-    height: 20vh;
+    height: 100%;
 }
 
 footer .container{
@@ -30,7 +36,7 @@ footer .container{
     justify-content: space-evenly;
 }
 
-footer .container #box{
+.container .box{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,11 +45,12 @@ footer .container #box{
     font-family: 'Roboto', sans-serif;
 }
 
-footer .titulo{
+ .titulo{
     margin-bottom: 5%;
     font-size: 1.5vw;
 }
 
+/*-----------------------------------*/
 .redes .redes_area {
     display: flex;
     justify-content: space-evenly ;
@@ -61,6 +68,7 @@ footer .titulo{
     font-size: 3vw;
 }
 
+/*-----------------------------------*/
 .pagamento .pagamento_area{
     display: flex;
     flex-direction: row;
@@ -76,12 +84,13 @@ footer .titulo{
 }
 
 .pagamento .pagamento_area img{
-    padding-bottom: 10%;
-    width: 4vw;
-    height: 4vh;
+    margin: 5% 10%;
+    width: 10vw;
+    height: 15vh;
     object-fit: contain;
 }
 
+/*-----------------------------------*/
 .contatos .contatos_area{
     display: flex;
     flex-direction: column;

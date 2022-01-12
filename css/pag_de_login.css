@@ -1,24 +1,12 @@
-:root {
-    --preto: #050805;
-    --branco: #e9f5e9;
-    --roxo: #2f184e;
-    --cinza-claro: #777d77;
-    --cinza-escuro: #394039;
+/*-----------------------------------*/
+.header{
+    width: 100vw;
+    height: 20vh;
 }
 
-* {
-    color: var(--branco);
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-}
-
-body {
-    background-color: var(--preto);
-}
-
-.txt {
-    color: var(--preto);
+.footer{
+    width: 100vw;
+    height: 20vh;
 }
 
 body .container_login{
@@ -26,7 +14,7 @@ body .container_login{
     align-items: center;
     justify-content: center;
     height: 60vh;
-    margin-bottom: 20vh;
+    margin-bottom: 10vh;
 }
 
 .container_login .formulario_login{
@@ -70,6 +58,7 @@ body .container_login{
     outline: none;
 }
 
+/*-----------------------------------*/
 .formulario_login .botao_logar{
     width: 40%;
     height: 7%;

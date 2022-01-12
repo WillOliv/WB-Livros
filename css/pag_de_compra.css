@@ -1,37 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
-
-:root {
-    --preto: #050805;
-    --branco: #e9f5e9;
-    --roxo: #2f184e;
-    --cinza-claro: #777d77;
-    --cinza-escuro: #394039;
+/*-----------------------------------*/
+.header{
+    width: 100vw;
+    height: 20vh;
 }
 
-* {
-    color: var(--branco);
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
+.footer{
+    width: 100vw;
+    height: 20vh;
 }
-
-body {
-    background-color: var(--preto);
-}
-
-.main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 5% 10%;
-}
-
-.txt{
-    color: var(--preto);
-}
-
 
 .marcado {
     color: yellow
@@ -39,6 +15,15 @@ body {
 
 .half{
     color: ;
+}
+
+/*-----------------------------------*/
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5% 10%;
 }
 
 .main .art1 {
@@ -61,6 +46,7 @@ body {
     padding: 1%;
 }
 
+/*-----------------------------------*/
 .left .feedback{
     display: flex;
     flex-direction: row;
@@ -98,6 +84,7 @@ body {
     width: 100%;
 }
 
+/*-----------------------------------*/
 .right .teste{
     width: 100%;
     height: 15%;
@@ -248,7 +235,7 @@ body {
     font-weight: 700;
 }
 
-
+/*-----------------------------------*/
 .art2{
     background-color: var(--roxo);
     width: 100%;
