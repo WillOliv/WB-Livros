@@ -22,19 +22,28 @@
         <div class="banner">
 
             <div class="slide_show">
-                <img src="" alt="">
-                <div class="descricao">descrição</div>
+                <img src="img/banner/op_banner.jpg" alt="">
+                <div class="descricao">One Piece Cap 1038</div>
             </div>
 
             <div class="slide_show">
-                <img src="" alt="">
-                <div class="descricao">descrição</div>
+                <img src="img/banner/bnha_banner.jpg" alt="">
+                <div class="descricao">My Hero Academia Cap 340</div>
             </div>
 
             <div class="slide_show">
-                <img src="" alt="">
-                <div class="descricao">descrição</div>
+                <img src="img/banner/opm_banner.webp" alt="">
+                <div class="descricao">One Punch Man Cap 155</div>
             </div>
+
+            <a class="proximo" onclick="plusSlides(1)">&#10095;</a>
+            <a class="anterior" onclick="plusSlides(-1)">&#10094;</a>
+        </div>
+
+        <div class="slide_dots">
+            <span class="dot" onclick="slideAtual(1)"></span>
+            <span class="dot" onclick="slideAtual(2)"></span>
+            <span class="dot" onclick="slideAtual(3)"></span>
         </div>
 
         <article class="art1">
@@ -196,6 +205,8 @@
     </section>
 
     <iframe src="footer.html" class="footer"></iframe>
+
+    <script src="js/funcao_slide.js"></script>
 
     <script src="js/owl/jquery.min.js"></script>
     <script src="js/owl/owl.carousel.min.js"></script>

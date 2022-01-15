@@ -70,9 +70,17 @@
     font-size: 2vw;
 }
 
-.left .feedback .favoritar i{
+.left .feedback button{
+    background-color: transparent;
+}
+
+#favoritar {
     font-size: 2.5vw;
-    color: rgb(177, 29, 29);
+}
+
+.favoritado{
+    font-size: 2.5vw;
+    color: red;
 }
 
 .left .vitrine{
