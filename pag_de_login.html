@@ -14,19 +14,20 @@
     <iframe src="header_2.html" class="header"></iframe>
 
     <div class="container_login">
-        <form class="formulario_login" action="">
+        <form name="formulario" class="formulario_login" onsubmit="return validarForm();" action="">
             <p class="entrar">Entrar</p>
             
             <div class="container_form2">
                 <label><p class="desc2">Usuário</p></label>
-                <input class="txt" type="text" placeholder="Digite seu usuário ou email" required>
+                <input name="usuario" class="txt" type="text" placeholder="Digite seu usuário ou email">
             </div>
 
             <div class="container_form2">
                 <label><p class="desc2">Senha</p></label>
-                <input class="txt" type="password" placeholder="Digite sua senha" required>
+                <input name="senha" class="txt" type="password" placeholder="Digite sua senha">
             </div>
 
+            <p class="span_error" id="erro"></p>
             <button class="botao_logar" type="submit"><a href="#"><p class="txt">REGISTRAR</p></a></button>
 
             <div class="cadastro_area">
@@ -40,6 +41,7 @@
         </form>
     </div>
 
+    <script src="js/validar_form2.js"></script>
     <iframe src="footer.html" class="footer"></iframe>
 </body>
 </html>

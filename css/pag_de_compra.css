@@ -13,10 +13,6 @@
     color: yellow
 }
 
-.half{
-    color: ;
-}
-
 /*-----------------------------------*/
 .main{
     display: flex;
@@ -72,6 +68,7 @@
 
 .left .feedback button{
     background-color: transparent;
+    cursor: pointer;
 }
 
 #favoritar {

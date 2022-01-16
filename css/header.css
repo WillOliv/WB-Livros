@@ -88,6 +88,24 @@ header .perfil i {
     font-size: 4vw;
 }
 
+.log_area{
+    width: 10%;
+}
+
+.log_area button{
+    background-color: transparent;
+    font-size: 0.8vw;
+    margin: 5% 0%;
+}
+
+.log_area button a{
+    text-decoration: none;
+}
+
+.log_area button :hover{
+    color: var(--cinza-claro);
+}
+
 header .favoritos i{
     color: rgb(177, 29, 29);
     font-size: 3vw;

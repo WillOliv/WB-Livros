@@ -3,14 +3,6 @@
     box-sizing:border-box
 }
 
-:root {
-    --preto: #050805;
-    --branco: #e9f5e9;
-    --roxo: #2f184e;
-    --cinza-claro: #777d77;
-    --cinza-escuro: #394039;
-}
-
 .header{
     width: 100vw;
     height: 20vh;

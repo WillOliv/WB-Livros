@@ -14,36 +14,33 @@
     <iframe src="header_2.html" class="header"></iframe>
 
     <div class="container_cadastro">
-        <form name="meuForm" class="formulario" method="post" onsubmit="return validarForm();" action="">
+        <form name="formulario" class="formulario" onsubmit="return validarForm();" action="pag_de_perfil.html">
             <p class="reg">Registre-se</p>
-            <hr>
             
             <div class="container_form">
                 <label><p class="desc">Usuário</p></label>
-                <input class="txt" name="usuario" type="text" placeholder="Digite nome do usuário" required>
-                <p id="usuario_area">aa</p>
+                <input class="txt" name="usuario" type="text" placeholder="Digite nome do usuário">
             </div>
 
             <div class="container_form">
                 <label><p class="desc">Email</p></label>
-                <input class="txt" name="email" type="text" placeholder="Digite seu email" required>
-                <p id="email_area">aa</p>
+                <input class="txt" name="email" type="text" placeholder="Digite seu email">
             </div>
 
             <div class="container_form">
                 <label><p class="desc">Senha</p></label>
-                <input class="txt" name="senha" type="password" placeholder="Digite sua senha" required>
-                <p id="senha_area">aa</p>
+                <input class="txt" name="senha" type="password" placeholder="Digite sua senha">
             </div>
 
             <div class="container_form">
                 <label><p class="desc">Repita a senha</p></label>
-                <input class="txt" name="repSenha" type="password" placeholder="Repita sua senha" required>
-                <p id="repSenha_area">aa</p>
+                <input class="txt" name="repSenha" type="password" placeholder="Repita sua senha">
             </div>
-            <hr>
-    
-            <button class="botao_registrar" type="submit"><a href="#"><p class="txt">REGISTRAR</p></a></button>
+
+            <p class="span_error" id="erro"></p>
+            <button class="botao_registrar" type="submit">
+                <p class="txt">REGISTRAR</p>
+            </button>
 
             <div class="login_area">
                 <p class="desc3">Já tem uma conta?</p>
@@ -56,6 +53,7 @@
         </div>
         </form>
 
+        <script src="js/validar_form.js"></script>
         <iframe src="footer.html" class="footer"></iframe>
 </body>
 </html>

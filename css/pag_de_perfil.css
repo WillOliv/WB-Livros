@@ -1,0 +1,171 @@
+:root {
+    --preto: #050805;
+    --branco: #e9f5e9;
+    --roxo: #2f184e;
+    --cinza-claro: #777d77;
+    --cinza-escuro: #394039;
+}
+
+* {
+    color: var(--branco);
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.header,
+.footer{
+    width: 100vw;
+    height: 20vh;
+}
+
+.teste {
+    color: var(--roxo);
+}
+
+/*-----------------------------------*/
+.main{
+    background-color: var(--roxo);
+    height: 70vh;
+    margin: 5% 24%;
+}
+
+.perfil_area{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+}
+
+.perfil_area .perfil_left{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+    height: 100%;
+}
+
+.perfil_area .perfil_right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+}
+
+/*-----------------------------------*/
+
+.perfil_left .img_area{
+    width: 70%;
+    height: 40%;
+    margin: 5% 0%;
+}
+
+.img_area img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5%;
+}
+
+.perfil_left .arquivo_area{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 12%;
+
+}
+
+.arquivo_area form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.arquivo_area .botao_submit{
+    font-size: 0.9vw;
+    width: 30%;
+}
+
+/*-----------------------------------*/
+
+.perfil_right .container_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 15%;
+    margin-top: 5%;
+    width: 90%;
+}
+
+.container_right .titulo_right{
+    font-family: "Poppins";
+    font-size: 1vw;
+}
+
+.container_right .area{
+    background-color: var(--branco);
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.container_right .campo{
+    font-size: 1vw;
+    color: var(--cinza-claro);
+    padding: 1%;
+    user-select: none;
+}
+
+.container_right .mudar{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1%;
+}
+
+.mudar button{
+    background-color: transparent;
+    font-size: 0.8vw;
+}
+
+.mudar a{
+    text-decoration: none;
+}
+
+.mudar button :hover{
+    color: var(--cinza-claro);
+}
+
+/*-----------------------------------*/
+.perfil_right .logout_area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    width: 90%;
+    height: 15%;
+}
+
+.logout_area .botao_logout{
+    background-color: transparent;
+    width: 20%;
+    height: 40%;
+}
+
+.botao_logout :hover{
+    color: var(--preto);
+    font-size: 1.4vw;
+}
+
+.botao_logout a{
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: var(--branco);
+}

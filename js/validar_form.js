@@ -1,73 +1,34 @@
-function validarForm(){
+function validarForm() {
 
-    var validarUsuario = document.getElementById("usuario_area");
+    var erro = document.getElementById("erro");
+
     try {
-        var a = document.forms["meuForm"]["usuario"].value;
-        if (a == null || a == "") {
-            throw "Usuário inválido";
-        }
+      var a = document.forms["formulario"]["usuario"].value;
+      if (a == null || a == "") {
+        throw "Usuário inválido";
+    }
+  
+    var b = document.forms["formulario"]["email"].value;
+    var requisito1 = b.indexOf("@");
+    var requisito2 = b.lastIndexOf(".");
+    if (requisito1 < 1 || requisito2 < requisito1 + 2 || requisito2 + 2 >= b.length){
+        throw "Email inválido";
+    }
+  
+    var c = document.forms["formulario"]["senha"].value;
+    if (c.length < 8) {
+        throw "A senha deve conter no mínimo 8 caracteres"
     }
 
-    catch (err) {
-        validarUsuario.style.color = "#FF0000";
-        validarUsuario.innerHTML = err;
-        return false;
-    }
-
-    return true;
-
-    ////////////////////////////////////////
-    var validarEmail = document.getElementById("email_area");
-    try {
-        var b = document.forms["meuForm"]["email"].value;
-        var requisito1 = b.indexOf("@");
-        var requisito2 = b.lastIndexOf(".");
-        var requisito3 = b.indexOf(".com");
-        if (requisito1 < 1 || requisito2 < requisito1 + 2 || requisito3 + 2 >= requisito2.length || requisito3 < 1 || requisito3 > 2 || b == null || b == ""){
-            throw "Email inválido"
-        }
-
-    }
-
-    catch (err) {
-        validarEmail.style.color = "#FF0000";
-        validarEmail.innerHTML = err;
-        return false;
+    var d = document.forms["formulario"]["repSenha"].value;
+    if (d !== c ){
+        throw "Senhas não condizem"
     }
 
     return true;
-
-    ////////////////////////////////////////
-    var validarSenha = document.getElementById("senha_area");
-    try{
-        var c = document.forms["meuForm"]["senha"].value
-        var req1 = c.length(8)
-        if (c < req1 || c == null || c == "") {
-            throw "Digite no mínimo 8 caracteres"
-        }
+    
+    } catch (err) {
+      erro.innerHTML = err;
+      return false;
     }
-
-    catch (err) {
-        validarSenha.style.color = "#FF0000";
-        validarSenha.innerHTML = err;
-        return false;
-    }
-
-    return true;
-
-    var validarRepSenha = document.getElementById("repSenha_area");
-    try{
-        var d = document.forms["meuForm"]["repSenha"].value
-        if (d != c){    
-            throw "As senhas precisam ser iguais"
-        }
-    }
-
-    catch (err) {
-        validarRepSenha.style.color = "#FF0000";
-        validarRepSenha.innerHTML = err;
-        return false;
-    }
-
-    return true;
 }

@@ -62,6 +62,12 @@ body .container_cadastro{
 }
 
 /*-----------------------------------*/
+.formulario .span_error{
+    font-size: 1vw;
+    color: #E02401;
+    margin-bottom: 2%;
+}
+
 .formulario .botao_registrar{
     width: 40%;
     height: 7%;
@@ -71,7 +77,6 @@ body .container_cadastro{
     font-size: 1vw;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-    margin-top: 5%;
 }
 
 .formulario .botao_registrar a{
