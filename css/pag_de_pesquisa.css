@@ -9,6 +9,10 @@
     height: 20vh;
 }
 
+.check{
+    color: yellow;
+}
+
 body .main_pesquisa{
     display: flex;
     flex-direction: column;
@@ -42,13 +46,6 @@ body .sec_pesquisa{
 }
 
 /*-----------------------------------*/
-.sec_pesquisa .menu_area{
-    background-color: var(--cinza-escuro);
-    display: flex;
-    flex-direction: column;
-    width: 33%;
-    height: auto;
-}
 
 .menu_area .filtro{
     background-color: var(--branco);
@@ -57,7 +54,61 @@ body .sec_pesquisa{
     justify-content: center;
     font-family: "Roboto", sans-serif;
     font-size: 1.5vw;
-    padding: 1%;
+    font-weight: 500;
+    padding: 2%;
+    margin-bottom: 5%;
+}
+
+/*-----------------------------------*/
+
+.sec_pesquisa .menu_area{
+    width: 25%;
+    height: auto;
+    margin: 1%;
+    padding: 0.5%;
+}
+
+.menu_area .botao_dropdown{
+    color: var(--preto);
+    display: block;
+    text-decoration: none;
+    text-align: left;
+
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5vw;
+    width: 100%;
+    padding: 5%;
+    cursor: pointer;
+}
+
+.botao_dropdown:hover {
+    color: var(--roxo);
+    font-weight: 500;
+}
+
+.menu_area .hide_dropdown{
+    background-color: var(--cinza-claro);
+    display: none;
+    padding: 5%;
+}
+
+.hide_dropdown .teste{
+    padding: 0.3vw;
+}
+
+.hide_dropdown label{
+    color: var(--preto);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5vw;
+    width: 100%;
+}
+
+.hide_dropdown input{
+    width: 1.5vw;
+    height: 1.5vw;
 }
 
 /*-------------------------------------------*/
@@ -65,7 +116,7 @@ body .sec_pesquisa{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 65%;
+    width: 75%;
 }
 
 .conteudo_area .container{

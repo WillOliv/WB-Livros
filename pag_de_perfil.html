@@ -4,8 +4,8 @@
     <title>WB livros</title>
     <link rel="shortcut icon" href="icon/fav-icon.png">
 
-    <link rel="stylesheet" href="css/pag_de_perfil.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/pag_de_perfil.css">
 
     <script src="https://kit.fontawesome.com/cfd59d7adc.js"></script>
 </head>
@@ -19,15 +19,12 @@
             <div class="perfil_left">
 
                 <div class="img_area">
-                    <img src="img/outros/void_profile.png" alt="">
+                    <img id="vitrine">
                 </div>
 
                 <div class="arquivo_area">
-                    <form  action="">
-                        <label for="">Selecione uma foto de perfil</label>
-                        <input class="botao_file" type="file">
-                        <button class="botao_submit txt" type="submit">Atualizar</button>
-                    </form>
+                    <input class="botao_file" type="file" accept="image/*" id="file" onchange="vitrine(event)">
+                    <label for="file">Adicionar uma foto de perfil</label>
                 </div>
             </div>
 
@@ -69,6 +66,8 @@
         </div>
     </main>
 
+    <script src="js/funcao_upImg.js"></script>
+    
     <iframe src="footer.html" class="footer"></iframe>
 </body>
 </html>

@@ -32,10 +32,6 @@
     margin: auto;
 }
 
-.banner .slide_show{
-    display: none;
-}
-
 .slide_show img{
     width: 100%;
     height: 100%;
@@ -45,12 +41,12 @@
 .descricao{
     background-color: var(--roxo);
     color: var(--branco);
-    font-size: 1.5vw;
     font-family: "Poppins", sans-serif;
-    padding: 1%;
+    font-size: 1.5vw;
     position: absolute;
-    width: 100%;
     text-align: center;
+    width: 100%;
+    padding: 0.5%;
     bottom: 0%;
 }
 

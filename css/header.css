@@ -66,13 +66,17 @@ header .search_bar i{
 
 }
 
+.search_bar form{
+    width: 100%;
+}
+
 header .search_bar input{
     background-color: var(--branco);
     font-size: 1vw;
     width: 100%;
     height: 100%;
     outline: none;
-    color: black;
+    color: var(--preto);
 }
 
 header .perfil,
@@ -109,6 +113,10 @@ header .perfil i {
 header .favoritos i{
     color: rgb(177, 29, 29);
     font-size: 3vw;
+}
+
+.favoritos button{
+    background-color: transparent;
 }
 
 /*-----------------------------------*/

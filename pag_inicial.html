@@ -5,11 +5,11 @@
     <link rel="shortcut icon" href="icon/fav-icon.png">
 
     <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/pag_inicial.css">
 
     <script src="https://kit.fontawesome.com/cfd59d7adc.js"></script>
 
+    <!-- Styles do Own carosel -->
     <link rel="stylesheet" href="css/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl/owl.theme.default.min.css">
 </head>
@@ -22,22 +22,22 @@
         <div class="banner">
 
             <div class="slide_show">
-                <img src="img/banner/op_banner.jpg" alt="">
+                <img src="img/banner/op_banner.jpg" alt="Slide1">
                 <div class="descricao">One Piece Cap 1038</div>
             </div>
 
             <div class="slide_show">
-                <img src="img/banner/bnha_banner.jpg" alt="">
+                <img src="img/banner/bnha_banner.jpg" alt="Slide2">
                 <div class="descricao">My Hero Academia Cap 340</div>
             </div>
 
             <div class="slide_show">
-                <img src="img/banner/opm_banner.webp" alt="">
+                <img src="img/banner/opm_banner.webp" alt="Slide3">
                 <div class="descricao">One Punch Man Cap 155</div>
             </div>
 
-            <a class="proximo" onclick="plusSlides(1)">&#10095;</a>
-            <a class="anterior" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="proximo" onclick="proxSlide(1)">&#10095;</a>
+            <a class="anterior" onclick="proxSlide(-1)">&#10094;</a>
         </div>
 
         <div class="slide_dots">
@@ -100,7 +100,7 @@
 
         <article class="art2">
 
-             <h2 class="titulo_2">Mais pupulares</h2>
+            <h2 class="titulo_2">Mais pupulares</h2>
 
             <div class="carrousels">
 
@@ -145,7 +145,6 @@
                     <a href="pag_de_compra.html" target="_blank" class="item" class="miniatura">
                         <img src="img/manga/boku_no_hero_vol1.jpg" alt="Capa">
                     </a>
-
                 </div>
             </div>
         </article>
@@ -197,7 +196,6 @@
                     <a href="pag_de_compra.html" target="_blank" class="item" class="miniatura">
                         <img src="img/manga/naruto_vol1.jpg" alt="Capa">
                     </a>
-
                 </div>
             </div>
         </article>
@@ -208,8 +206,9 @@
 
     <script src="js/funcao_slide.js"></script>
 
+    <!-- Scripts do Own carousel -->
     <script src="js/owl/jquery.min.js"></script>
     <script src="js/owl/owl.carousel.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/owl/script.js"></script>
 </body>
 </html>

@@ -1,7 +1,7 @@
 var slideIndex = 1;
 mostrarSlide(slideIndex);
 
-function plusSlides(n) {
+function proxSlide(n) {
   mostrarSlide(slideIndex += n);
 }
 
