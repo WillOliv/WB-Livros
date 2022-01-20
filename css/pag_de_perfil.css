@@ -28,6 +28,7 @@
     background-color: var(--roxo);
     height: 70vh;
     margin: 5% 24%;
+    border-radius: 2%;
 }
 
 .perfil_area{
